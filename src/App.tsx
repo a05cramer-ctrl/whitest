@@ -6,7 +6,7 @@ import heroImage from './13a69461f00ffed769b95042d77d023e.jpg'
 function App() {
   const [loaded, setLoaded] = useState(false)
   const [copied, setCopied] = useState(false)
-  const contractAddress = '0x0000000000000000000000000000000000000000' // Replace with actual CA
+  const contractAddress = '73h9xwpxGTCn2JzSb2gsmUxmUqwZVWzgCDEiYcxgpump'
 
   useEffect(() => {
     setLoaded(true)
@@ -45,7 +45,14 @@ function App() {
         <div className="actions">
           <button className="action-btn">Buy</button>
           <button className="action-btn">Chart</button>
-          <button className="action-btn">X</button>
+          <a 
+            href="https://x.com/Whitest_dev" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="action-btn"
+          >
+            X
+          </a>
         </div>
         
         <div className="contract-address">

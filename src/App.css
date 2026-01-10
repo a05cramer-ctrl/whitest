@@ -201,6 +201,8 @@
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .action-btn::before {
