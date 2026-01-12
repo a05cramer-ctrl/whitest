@@ -6,7 +6,7 @@ import heroImage from './13a69461f00ffed769b95042d77d023e.jpg'
 function App() {
   const [loaded, setLoaded] = useState(false)
   const [copied, setCopied] = useState(false)
-  const contractAddress = '8assGZfDUGLSVhMFu7B7rW1aeuALjMRb63BKbDkgpump'
+  const contractAddress = '6tfUTuRDPtyFzH6ugyttRRVsLYKYSZTKb29gydeRpump'
 
   useEffect(() => {
     setLoaded(true)
